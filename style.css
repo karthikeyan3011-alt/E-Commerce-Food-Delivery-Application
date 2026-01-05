@@ -1,0 +1,303 @@
+.header img{
+    width:100%;
+    height:655px;
+}
+.container
+{
+   width:1400px;
+   margin:auto;
+   
+
+}
+ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    list-style: none;
+
+    
+}
+
+.specialmeal img{
+    height: 200px;
+    width: 250px;
+    border-radius: 5px;
+    }
+h3,h1,h4,h2{
+    text-align: center;
+    
+}
+
+.filtered
+{
+    margin:auto;
+    width:1300px;
+} 
+
+.list
+{
+   width:150px;
+   height: 30px;
+   background-color: orange; 
+   border-radius:15px;  
+   text-align: center;
+}  
+
+.list:hover{
+    background-color: chartreuse;
+    border:2px solid black;
+}
+ .filterlist{
+    width:200px;
+    height:200px;
+    gap:20px;
+ }
+.filteredmeal{
+    display:flex;
+    flex-wrap: wrap;
+    gap:40px;
+}
+
+
+.filteredmeal img{
+  height: 170px;
+  width: 220px;
+  border-radius: 5px;
+}
+
+.listactive{
+    background-color: black;
+    color:white;
+    width:150px;
+    border-radius:15px;  
+    text-align: center;
+}
+
+.alert{
+    background-color:rgb(198, 113, 154);
+    width:1150px;
+    height:200px;
+    text-align: center;
+    border-radius: 10px;
+    border:2px solid black;
+
+}
+
+.loader{
+    width:100%;
+    height:100%;
+    display:flex;
+    position:fixed;
+    top:0px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.pagination{
+    width:400px;
+    margin:auto;
+    padding-left:65px;
+
+}
+
+button{
+    margin:15px;
+    width:35px;
+    height:35px;
+    border-radius:5px;
+    border: 2px solid black;
+    /* box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; */
+}
+
+.button:hover{
+    background-color: rgb(174, 174, 27);
+}
+
+button.activePage{
+    background-color: rgb(219, 93, 93);
+    color:white;
+}
+
+.popup{
+    background-color: rgba(38, 123, 123,0.5);
+    color:white;
+    border: solid 4px rgb(243, 243, 233);
+    position: fixed;
+    top:0px;
+    left:300px;
+    width:500px;
+    height:600px;
+    border-radius: 10px; 
+}
+
+.popuph1{
+    
+  padding-left:65px;
+}
+
+.popcontainer{
+text-align: center; 
+}
+ .popimg{
+
+    width:300px;
+    height: 220px;
+    border-radius: 10px;
+    border:3px solid rgb(236, 228, 228);
+}
+
+.btn1{
+    width:100px;
+    height:35px;
+    border-radius: 5px;
+    border:none;
+    font-size: 15px;
+
+}
+
+.btn1:hover{
+    background-color: yellow;
+    color:black;
+}
+
+.btnclick{
+    float:right
+}
+
+.cart{
+   background-color: rgba(2, 68, 68,0.7);
+    border: solid 4px rgb(243, 243, 233);
+    width:350px;
+    height:500px;
+    position:fixed;
+    right: 0px;
+    top:0%;
+    border-radius: 10px;
+    overflow:scroll;
+
+}
+.carth1{
+    position:relative;
+    left:40px;
+}
+
+
+.cartcontainer{
+    height:85%;
+    text-align: center;
+}
+
+.name{
+    color:white;
+    font-size: 20px;
+}
+.price{
+    color:white;
+    font-size: 20px;
+}
+
+.quantity{
+    display:inline-block;
+    color:white;
+    font-size: 20px;
+}
+
+.plus{
+    background-color: rgb(188, 91, 91);
+    color:white;
+    border:2px solid white;
+}
+
+.minus{
+    background-color: rgb(188, 91, 91);
+    color:white;
+     border:2px solid white;
+}
+
+i{
+    color: rgb(188, 91, 91);
+    font-size:32px;
+    position:relative;
+    top:8px;
+}
+
+.cartimg{
+    width:250px;
+    height:150px;
+    border-radius: 10px;
+    border:3px solid rgb(236, 228, 228);
+  
+
+}
+.none{
+    list-style: none;
+}
+
+.buynow{
+     background-color: brown;
+    width:100px;
+    border:2px solid rgb(237, 229, 229);
+    color:white;
+    font-size: 16px;
+    display:inline;
+    position:relative;
+    margin-top:0px;
+    
+}
+.checkbox{
+    background-color: brown;
+    width:100px;
+    border:2px solid rgb(237, 229, 229);
+    color:white;
+    font-size: 16px;
+    display: inline;
+    position:relative;
+    left:100px;
+    margin-top:0px;    
+}
+
+.cheakout{
+    width:100%;
+    background-color: aliceblue;
+    height:700px;
+    position: fixed;
+    left:0px;
+    top:0px;
+}
+
+table,th,td{
+    border:solid 2px red;
+    width:50%;
+    margin:auto;
+}
+
+.emptycard{
+      background-color: rgba(2, 68, 68,0.7);
+    border: solid 4px rgb(243, 243, 233);
+    width:200px;
+    height:20%;
+    position:fixed;
+    right: 0px;
+    top:0%;
+   
+    
+}
+
+.close{
+    width:100px;
+    height: 40px;
+    background-color: rgb(188, 91, 91);
+    position: relative;
+    top:50px;
+    left:50%;
+}
+
+.close:hover{
+    color:white;
+    border:2px solid black;
+}
+
