@@ -1,7 +1,5 @@
-# E-Commerce-Food-Delivery-Application
-The project E Commerce Food Delivery is a Frontend UI designed web application that allows user to filter the cuisines based on category and adding it to the cart
-
-# day 1:
+# E-Commerce-Food-Delivery-Application:
+# day 1
      1:created main.js for renderind all the compentsand fetching all the data.
      2:create header.js header portion
      3:create specialmeals.js show the all special meals 
